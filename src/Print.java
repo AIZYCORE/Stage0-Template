@@ -5,6 +5,21 @@
  */
 
 void main() {
+        System.out.println("Hello World!");
+        System.out.println("The rebot knows where it is at all times.");
+        System.out.println("It knows this because it knows where it isn't.");
+
+        //double  pi = 3.14159;
+        double  pi = 3.142857;
+        int  g = 10;
+        String  mode = "autonomous";
+
+        System.out.println(pi + " " +g + " " + mode);
+
+        double degrees = 360;
+        System.out.println(degrees);
+}
+
     // Print "Hello World!", with a newline at the end.
 
 
@@ -37,4 +52,4 @@ void main() {
     // (it prints 360.0 with a decimal part, instead of just 360, since the
     // variable uses a data type with decimal parts).
 
-}
+
