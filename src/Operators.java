@@ -29,10 +29,12 @@ void main() {
     int rotPerHour = rotPerSec * 60 * 60;
     System.out.println(rotPerHour);
 
+
     // Create an integer variable `quotient1`, and assign to it the value
     // of 5 divided by 3. Then print the value of `quotient1`.
     int quotientl = 5 / 3;
     System.out.println(quotientl);
+
 
     // Create a variable `quotient2` of type double, and assign to it the
     // value of 5.0 divided by 3. Then print the value of `quotient2`.
@@ -41,6 +43,7 @@ void main() {
     double quotient2 = 5.0 / 3;
     System.out.println(quotient2);
 
+
     // Convert `rawEncoderDegrees` to its corresponding degree amount on a scale
     // from 0 to 360, using an arithmetic operator, and store this value in a
     // variable `normalizedAngle`. Then print the value of `normalizedAngle`.
@@ -48,16 +51,19 @@ void main() {
     double normalizedAngle = rawEncoderDegrees % 360;
     System.out.println(normalizedAngle);
  
+
     // Using only the increment operator, add 1 to the `timer` variable below.
     // Then print the value of `timer`.
     int timer = 1000;
     System.out.print(++timer);
+
 
     // Using only the decrement operator, subtract 1 from the `secondsLeftInMatch`
     // variable below. Then print the value of `secondsLeftInMatch`.
     int secondsLeftInMatch = 85;
     System.out.println(--secondsLeftInMatch);
 
+    
     // Print the sum, difference, product, and quotient of the two variables
     // `num1` and `num2`. Especially take note of how the quotient is printed,
     // recalling the earlier explanation about how Java handles division of integers.
